@@ -1,4 +1,4 @@
-name: Deploy React to Hostinger
+name: Future Advice By Charm Deployment
 on:
   push:
     branches:
@@ -28,5 +28,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ./public_html/
+          server-dir: ./
           local-dir: ./dist/
