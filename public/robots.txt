@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Disallow private/user areas
+Disallow: /user/
+Disallow: /appointment/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /packages
+Allow: /zodiacs
+Allow: /blogs
+Allow: /contact
+Allow: /login
+Allow: /register
+Allow: /privacy
+Allow: /terms
+
+# Sitemap location
+Sitemap: https://futureadvicebycharm.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1 

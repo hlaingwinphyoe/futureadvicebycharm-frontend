@@ -1,0 +1,63 @@
+{
+  "name": "Future Advice by Charm",
+  "short_name": "Future Advice by Charm",
+  "description": "Professional tarot reading services providing accurate spiritual guidance and insights",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141122",
+  "theme_color": "#141122",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["lifestyle", "spirituality", "entertainment"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/website.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Future Advice by Charm - Professional Tarot Reading Services"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Appointment",
+      "short_name": "Book",
+      "description": "Book a tarot reading session",
+      "url": "/appointment",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Packages",
+      "short_name": "Packages",
+      "description": "View available tarot reading packages",
+      "url": "/packages",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
