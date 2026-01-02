@@ -8,7 +8,7 @@ A modern, responsive web application for professional tarot reading services. Bu
 
 ### Core Functionality
 
-- **User Authentication** - Secure login/register with Google OAuth support
+- **User Authentication** - Secure login/register
 - **Appointment Booking** - Interactive calendar selection and booking system
 - **Package Management** - Browse and select tarot reading packages
 - **Blog System** - Read and save tarot-related articles and insights
@@ -161,9 +161,7 @@ front_tarot/
 Create a `.env` file in the root directory:
 
 ```env
-VITE_API_URL=your_api_url
-VITE_GOOGLE_CLIENT_ID=your_google_oauth_client_id
-VITE_VAPID_PUBLIC_KEY=your_vapid_public_key_for_push_notifications
+VITE_SERVER_HOST=your_api_url
 ```
 
 ### PWA Configuration
@@ -296,7 +294,6 @@ The project uses Tailwind CSS with custom configuration:
 ### Features
 
 - **JWT Tokens** - Secure authentication
-- **Google OAuth** - Social login integration
 - **Protected Routes** - Route-based access control
 - **User Context** - Global user state management
 
@@ -339,13 +336,6 @@ The project uses Tailwind CSS with custom configuration:
 ```bash
 npm run build
 ```
-
-### Deployment Options
-
-- **Vercel** - Recommended for React apps
-- **Netlify** - Easy deployment with Git integration
-- **AWS S3** - Static hosting with CloudFront
-- **Firebase Hosting** - Google's hosting solution
 
 ### Environment Setup
 
@@ -409,4 +399,4 @@ For support and questions:
 
 **Built with ❤️ by ZeroOnee Tech**
 
-_Last updated: December 19, 2024_
+_Last updated: December 19, 2025_
