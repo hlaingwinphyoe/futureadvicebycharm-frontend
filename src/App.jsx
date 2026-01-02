@@ -31,6 +31,7 @@ import Privacy from "./Pages/Privacy";
 import Terms from "./Pages/Terms";
 import About from "./Pages/About";
 import FeedbackIndex from "./Pages/Feedback/Index";
+import PageTracker from "./components/PageTracker";
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
       <Provider store={store}>
         <AuthProvider>
           <BrowserRouter>
+            <PageTracker /> {/* For Google Analytics */}
             <ServiceWorkerRegistration />
             <OfflineFallback />
             <PWASettings />
